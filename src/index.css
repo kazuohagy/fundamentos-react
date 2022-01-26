@@ -2,28 +2,6 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: blue;
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  height: 100vh;
-  margin: 0px;
-  display: grid;
-  grid-template-rows: 120px 1fr 60px;
-  grid-template-columns: 1fr;
-  grid-template-areas: "cabecalho " "principal" "rodape";
-}
-.cabecalho {
-  grid-area: cabecalho;
-  background-color: #ffffff;
-  color: #000000;
-}
-.principal {
-  grid-area: principal;
-  height: calc(100vh - 180px);
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-}
-.rodape {
-  grid-area: rodape;
-  background-color: rgb(255, 255, 255);
-  /*position: sticky;*/
 }
